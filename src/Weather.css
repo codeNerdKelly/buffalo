@@ -1,0 +1,32 @@
+#currentWeather {
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  #icon,
+  #currentTemp {
+    font-size: 55px;
+    color: white;
+  }
+  
+  #icon {
+    color: gold;
+    font-weight: bold;
+    padding-right: 15px;
+  }
+  
+  #far,
+  #cel {
+    position: relative;
+    top: -35px;
+    margin-left: 5px;
+  }
+  
+  #far:hover,
+  #cel:hover {
+    font-size: larger;
+    color: fuchsia;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

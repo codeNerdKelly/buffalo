@@ -1,0 +1,15 @@
+#timeUpdate {
+    list-style: none;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    color: grey;
+    line-height: 18px;
+  }
+  
+  #currentConditions {
+    list-style: none;
+    text-align: left;
+    color: grey;
+    line-height: 18px;
+  }
