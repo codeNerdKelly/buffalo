@@ -3,11 +3,11 @@ import "./Search.css";
 
 export default function Search() {
   let [city, setCity] = useState(" ");
-  let [displayMessage, setMessage] = useState("");
+  
 
   function alertSearch(event) {
     event.preventDefault();
-    setMessage(`It is 19˚C in ${city}`);
+  
   }
 
   function updateCity(event) {
@@ -24,7 +24,6 @@ export default function Search() {
         />
         <input type="submit" id="submitSearch" value="Search" />
       </form>
-      <h2>{displayMessage}</h2>
     </div>
   );
 }
