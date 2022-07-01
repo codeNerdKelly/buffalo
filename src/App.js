@@ -9,7 +9,6 @@ export default function App() {
     <div className="App">
       <div className = "container">
       <Search />
-      <h1 className="City">New York</h1>
       <Weather />
     </div>
     </div>
