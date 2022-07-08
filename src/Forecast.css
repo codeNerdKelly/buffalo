@@ -1,0 +1,17 @@
+.timeDescription {
+   list-style-type: none;
+   text-align: left; 
+   line-height: 100%;
+   color: #a9a9a9;   
+}
+
+#icon {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: -15px;
+}
+
+#currentTemp {
+    
+}
