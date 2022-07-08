@@ -4,6 +4,9 @@ h4 {
     font-size: smaller;
 }
 
+.Link {
+    color: blue;
+}
 .Link:hover {
     font-size: larger;
     color: fuchsia;

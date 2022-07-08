@@ -17,10 +17,15 @@ export default function Forecast(props){
                     <img src = {sunshine} alt="description" id = "icon"></img>
                 </div>
                 <div className = "col-4" id = "currentTemp">
-
+                75˚
+                <span id = "cel"><a href = "/">F |</a></span>
+                <span id = "far"><a href = "/"> C</a> </span>
                 </div>
                 <div className = "col-6">
-                    
+                    <ul className = "humidWind">
+                        <li>Humidity: </li>
+                        <li>Wind: </li>
+                    </ul>
                     </div>
             </div>
         </div>

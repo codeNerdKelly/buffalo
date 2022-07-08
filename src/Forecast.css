@@ -1,9 +1,26 @@
-.timeDescription {
+a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+ul{
    list-style-type: none;
    text-align: left; 
    line-height: 100%;
    color: #a9a9a9;   
 }
+
+a:hover {
+    cursor: pointer;
+    color: fuchsia;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a:active {
+    font-weight: bold;
+}
+
 
 #icon {
     width: 60px;
@@ -13,5 +30,16 @@
 }
 
 #currentTemp {
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: -12px;
+    left: -48px;
+}
+
+#cel, #far {
+    font-size: 14px;
+    position: relative;
+    top: -38px;
     
 }
